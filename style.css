@@ -412,6 +412,13 @@ p {
   }
 }
 
+@media (max-width: 391px){
+  .container-grid-hobbies h3 {
+    font-size: 24px;
+  }
+}
+
+
 @media (max-width: 1195px){
   .resume{
     margin-left: 16px;
