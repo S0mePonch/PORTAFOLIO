@@ -265,12 +265,11 @@ p {
   position: absolute;
 }
 
-@media (max-width: 835px){
-
-  .Academic-training{
+@media (max-width: 835px) {
+  .Academic-training {
     justify-content: center;
   }
-  .Academic-training p{
+  .Academic-training p {
     width: 70%;
     text-align: center;
     margin-top: 25px;
@@ -352,7 +351,7 @@ p {
     width: 100%;
   }
 
-  .About-me > p{
+  .About-me > p {
     text-align: center;
     width: 80%;
     font-size: 25px;
@@ -370,16 +369,20 @@ p {
     font-size: 25px;
   }
 
-  .Contact-me{
+  .Contact-me {
     margin: 0 0 30px 0;
   }
-  .Contact-me p{
+  .Contact-me p {
     width: 85%;
     font-size: 25px;
   }
 
-  button{
+  button {
     margin-top: 25px;
+  }
+
+  .Footer p{
+    font-size: 25px;
   }
 
   #particles-js {
@@ -412,16 +415,37 @@ p {
   }
 }
 
-@media (max-width: 391px){
+@media (max-width: 391px) {
+  .Main {
+    height: 615px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 265px;
+  }
+  .Main img{
+    top: 160px;
+  }
+
+  .Main h1{
+    margin-bottom: 280px;
+  }
+
   .container-grid-hobbies h3 {
     font-size: 24px;
   }
+
+  .Footer p{
+    font-size: 25px;
+  }
 }
 
-
-@media (max-width: 1195px){
-  .resume{
+@media (max-width: 1195px) {
+  .resume {
     margin-left: 16px;
     width: 100%;
+  }
+
+  .Footer{
+    font-size: 25px;
   }
 }
